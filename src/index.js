@@ -6,10 +6,11 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <App />
 );
+
+// Removed <React.StrictMode> to stop "setState" from running twice in development mode.
+// https://reactjs.org/docs/strict-mode.html#detecting-unexpected-side-effects
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

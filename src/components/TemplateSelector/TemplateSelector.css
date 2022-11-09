@@ -1,0 +1,10 @@
+.TemplateSelector {
+
+}
+
+.TemplateSelector > img {
+    width: 400px;
+    height: 225px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
