@@ -1,0 +1,32 @@
+.upload-page {}
+
+
+img {
+    width: 350px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.ml {
+    margin-left: 100px;
+}
+
+.mr {
+    margin-right: 100px;
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+.mb {
+    margin-bottom: 30px;
+}
